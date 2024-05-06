@@ -31,3 +31,10 @@ soundbutton.addEventListener('click', e => {
     audio.paused ? audio.play() : audio.pause()
 })
 
+window.onfocus = function () {
+    soundbutton.classList.contains('paused') ? audio.pause() : audio.play() 
+}
+
+window.onblur = function () {
+    audio.pause()
+}
