@@ -11,5 +11,18 @@
 	--side-big: 36;
 	--depth: 4000px;
 	--transition: .75s cubic-bezier(.075, .5, 0, 1)
+}
 
+body{
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+@font-face {
+    font-family: raleway_c;
+    src: url(../fonts/raleway-v22-cyrillic-300.woff2);
+    font-weight: 300;
 }
