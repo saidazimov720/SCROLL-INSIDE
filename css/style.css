@@ -112,5 +112,13 @@ video.frame-media_left{
     right: calc(var(--side-big) / 2 * var(--index) + var(--gutter));
 }
 
+.text-right > *{
+    position: relative;
+    left: 18vw;
+}
 
+.text-left > *{
+    position: relative;
+    left: 18vw;
+}
 
