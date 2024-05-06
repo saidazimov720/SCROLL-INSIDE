@@ -64,4 +64,12 @@ body{
     justify-content: center;
     transition: var(--transition), opacity .75s ease;
 	will-change: transform;
+    transform-style: preserve-3d;
+}
+
+h1, h2, h3, h4{
+    font-weight: 100;
+    text-transform: uppercase;
+    width: min-content;
+    line-height: 1;
 }
