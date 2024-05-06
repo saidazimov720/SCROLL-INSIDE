@@ -131,3 +131,15 @@ video.frame-media_left{
     margin-top: 3vw;
 }
 
+soundbutton{
+    position: fixed;
+    bottom: 5vw;
+    right: 5vw;
+    cursor: pointer;
+    width: 24px;
+    transition: .25 ease;
+}
+
+.soundbutton.paused{
+    opacity: .25;
+}
