@@ -73,3 +73,13 @@ h1, h2, h3, h4{
     width: min-content;
     line-height: 1;
 }
+
+.frame h2{
+    text-align: center;
+    font-size: calc(var(--index)* 3.3);
+}
+
+.frame-media{
+    position: relative;
+    
+}
