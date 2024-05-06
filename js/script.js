@@ -20,3 +20,14 @@ window.onscroll = function () {
 		frame.setAttribute('style', `transform: ${transform}; opacity: ${opacity}`)
 	})
 }
+
+window.scrollTo(0, 1)
+
+let soundbutton = document.querySelector('.soundbutton'),
+audio = document.querySelector('.audio')
+
+soundbutton.addEventListener('click', e => {
+    soundbutton.classList.toggle('paused')
+    audio.paused ? audio.play() : audio.pause()
+})
+
