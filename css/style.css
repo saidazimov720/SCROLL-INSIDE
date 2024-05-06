@@ -122,3 +122,12 @@ video.frame-media_left{
     left: 18vw;
 }
 
+.frame h3{
+    font-size: calc(var(--index) * 3);
+}
+
+.frame p {
+    max-width: 30vw;
+    margin-top: 3vw;
+}
+
