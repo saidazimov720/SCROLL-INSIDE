@@ -88,8 +88,10 @@ h1, h2, h3, h4{
 }
 
 .frame-media_left{
-    right: calc(var(--index) * var(--side-small));
-    height: calc(var(--index) * var(--side-big));
-    background-position: center;
-    background-size: cover;
+    right: calc(var(--side-small) / 2 * var(--index) + var(--gutter));
 }
+
+.frame-media_right{
+    left: calc(var(--side-small) / 2 * var(--index) + var(--gutter));
+}
+
