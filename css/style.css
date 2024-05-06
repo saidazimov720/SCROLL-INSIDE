@@ -104,3 +104,7 @@ video.frame-media{
     height: calc(var(--index) * var(--side-small));
 }
 
+video.frame-media_right{
+    left: calc(var(--side-big) / 2 * var(--index) + var(--gutter));
+}
+
