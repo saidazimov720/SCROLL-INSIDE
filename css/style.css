@@ -33,3 +33,8 @@ body::-webkit-scrollbar{
     font-weight: 100;
 }
 
+body{
+    background-color: #000;
+    color: #fff;
+    
+}
