@@ -36,5 +36,9 @@ body::-webkit-scrollbar{
 body{
     background-color: #000;
     color: #fff;
-    
+    font-size: calc(var(--index)* .8);
+    font-family: raleway_c, sans-serif;
+    line-height: 1.75;
+    height: var(--depth);
+    font-weight: 300;
 }
