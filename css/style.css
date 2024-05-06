@@ -81,5 +81,15 @@ h1, h2, h3, h4{
 
 .frame-media{
     position: relative;
-    
+    width: calc(var(--index) * var(--index-small));
+    height: calc(var(-index) * var(--index-big));
+    background-position: center;
+    background-size: cover;
+}
+
+.frame-media_left{
+    right: calc(var(--index) * var(--side-small));
+    height: calc(var(--index) * var(--side-big));
+    background-position: center;
+    background-size: cover;
 }
