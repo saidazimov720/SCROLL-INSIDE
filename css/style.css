@@ -50,3 +50,12 @@ body{
     perspective: 1500px;
 }
 
+.gallery{
+    transform-style: preserve-3d;
+    height: 100%;
+}
+
+.frame{
+    width: 100%;
+    height: 100%;
+}
